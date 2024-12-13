@@ -22,7 +22,7 @@ There are two environment versions: discrete or continuous. The landing pad is a
 
 To see a heuristic landing, run:
 
-**Action Space**
+## **Action Space**
 
 There are four discrete actions available:
 
@@ -35,11 +35,11 @@ There are four discrete actions available:
 3: fire right orientation engine
 
 
-**Observation Space**
+## **Observation Space**
 
 The state is an 8-dimensional vector: the coordinates of the lander in x & y, its linear velocities in x & y, its angle, its angular velocity, and two booleans that represent whether each leg is in contact with the ground or not.
 
-**Rewards**
+## **Rewards**
 
 After every step a reward is granted. The total reward of an episode is the sum of the rewards for all the steps within that episode.
 
